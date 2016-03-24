@@ -46,6 +46,7 @@
 #if defined(_AIX)
 #define reqevents events
 #define rtnevents revents
+#define _GNU_SOURCE
 #include <sys/poll.h>
 #endif /* _AIX */
 
